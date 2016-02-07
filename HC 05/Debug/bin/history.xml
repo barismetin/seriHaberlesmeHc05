@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=HC 05.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\HC 05 -TC:\CooCox\CoIDE\configuration\ProgramData\HC 05/arm-gcc-link.ld -g">
+      <target file="HC 05.elf" lastModified="1528ea7ce41">
+         <source file="..\obj\delay.o" lastModified="1528ea48b3f"/>
+         <source file="..\obj\stm32f4xx_usart.o" lastModified="1528ea48b9d"/>
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1528ea48bcc"/>
+         <source file="..\obj\main.o" lastModified="1528ea7cc77"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1528ea48ca7"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1528ea48d14"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1528ea48d53"/>
+         <source file="..\obj\syscalls.o" lastModified="1528ea48db0"/>
+         <source file="..\obj\misc.o" lastModified="1528ea48def"/>
+      </target>
+   </processor>
+</history>
